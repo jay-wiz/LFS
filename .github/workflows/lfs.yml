@@ -1,4 +1,5 @@
 name: 'LFS-warning'
+on: [push, pull-request]
 description: 'Checks file sizes in a Pull Request and warns of large files'
 inputs:
   token:
