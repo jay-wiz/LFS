@@ -1,7 +1,6 @@
 name: 'LFS-warning'
 on: [push, pull_request]
 jobs:
-  description: 'Checks file sizes in a Pull Request and warns of large files'
   inputs:
     token:
       required: false
