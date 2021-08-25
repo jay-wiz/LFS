@@ -7,7 +7,7 @@ jobs:
       required: false
       description: Token used to fetch the repository
       default: ${{ github.token }}
-    filesizelimit:  '1000000' # id of input 
+  filesizelimit:  '1000000' # id of input 
       description: 'file size limit threshold'
   outputs:
     lfsFiles: # output will be available to future steps 
