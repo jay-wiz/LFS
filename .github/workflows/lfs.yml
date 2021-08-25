@@ -4,7 +4,7 @@ jobs:
     uses: actionsdesk/lfs-warning@v2.0
     with:
     token:
-      required: false
+      required: 'false'
       description: Token used to fetch the repository
       default: ${{ github.token }}
   filesizelimit:  '1000000' # id of input 
