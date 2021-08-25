@@ -1,7 +1,8 @@
 name: 'LFS-warning'
 on: [push, pull_request]
 jobs:
-  inputs:
+    uses: actionsdesk/lfs-warning@v2.0
+    with:
     token:
       required: false
       description: Token used to fetch the repository
